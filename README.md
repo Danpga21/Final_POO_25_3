@@ -103,11 +103,6 @@ javac -version
    nano Ejercicios.java
    ```
 
-4. **Opción D - Tu editor favorito:**
-   - Visual Studio Code
-   - IntelliJ IDEA
-   - Eclipse
-   - Sublime Text
 
 #### 2.2 Entender la Estructura
 
@@ -273,34 +268,6 @@ public int factorial(int n) {
 
 ---
 
-## 🏆 Objetivos de Aprendizaje
-
-```mermaid
-mindmap
-  root((Workshop Java))
-    Tipos de Datos
-      Declaración variables
-      Conversión tipos
-      int, double, String, boolean
-    Variables
-      Asignación valores
-      Intercambio
-      Concatenación
-    Operadores
-      Aritméticos
-      Comparación
-      Lógicos
-      Asignación
-    Condicionales
-      if simple
-      if-else
-      Condiciones complejas
-    Ciclos
-      for
-      while
-      do-while
-      Algoritmos clásicos
-```
 
 ---
 
@@ -330,7 +297,7 @@ Error: Could not find or load main class...
 ```
 'java' is not recognized as an internal or external command
 ```
-**Solución**: Instala Java JDK 8+ y configura las variables de entorno
+**Solución**: Instala Java JDK 21+ y configura las variables de entorno
 
 ---
 
@@ -346,39 +313,7 @@ Errores: 0
 
 ---
 
-## 📊 Progreso Sugerido
 
-```mermaid
-gantt
-    title Cronograma Sugerido del Workshop
-    dateFormat X
-    axisFormat %d
-    
-    section Tipos de Datos
-    Declaraciones básicas    :milestone, m1, 1, 0d
-    Conversiones             :2, 4d
-    
-    section Variables
-    Asignación               :5, 3d
-    Interacción              :8, 3d
-    
-    section Operadores
-    Aritméticos             :11, 2d
-    Lógicos                 :13, 3d
-    
-    section Condicionales
-    if-else                 :16, 4d
-    Casos complejos         :20, 3d
-    
-    section Ciclos
-    for/while               :23, 4d
-    Algoritmos              :27, 4d
-    
-    section Final
-    ¡Completado!           :milestone, m2, 31, 0d
-```
-
----
 
 ## 📞 Ayuda y Recursos
 
@@ -388,9 +323,9 @@ gantt
 
 ### 💡 Consejos
 1. **Lee cuidadosamente** la documentación de cada función
-2. **Empieza por lo fácil** (tipos de datos) y avanza gradualmente
-3. **Compila frecuentemente** para detectar errores temprano
-4. **Usa los ejemplos** como guía para entender qué se espera
+2. **Empieza por los que te den confianza** (tipos de datos) y avanza gradualmente
+3. **Compila frecuentemente** para detectar errores temprano **No olvides guardar**
+4. **Usa los ejemplos** como guía para entender qué se espera **Puedes revisar el repo anterior de ejemplos**
 5. **No tengas miedo de experimentar** - ¡siempre puedes volver atrás!
 
 ---
@@ -413,4 +348,4 @@ awk -F'"' '/testsuite.*tests=/ {print "Tests ejecutados: " $4 "\nAprobados: " ($
 
 ---
 
-*¿Listo para el desafío? ¡Demuestra tus habilidades completando los 29 ejercicios!* 💪
+*No olvides dejar una estrellita en el repo!* ⭐️
