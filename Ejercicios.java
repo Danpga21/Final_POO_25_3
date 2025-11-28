@@ -9,8 +9,8 @@ public class Ejercicios {
      * Ejemplo: Si ejecutas la función, debe retornar 42
      */
     public int declararEntero() {
-        // TODO: Implementar
-        return 0;
+        int numero =42;
+        return numero;
     }
     
     /**
@@ -45,8 +45,9 @@ public class Ejercicios {
      * Ejemplo: Si pasas 123, debe retornar "123"
      */
     public String convertirEnteroATexto(int num) {
-        // TODO: Implementar
-        return "";
+
+
+        return ""+num;
     }
     
     /**
