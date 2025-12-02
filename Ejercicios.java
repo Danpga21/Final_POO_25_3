@@ -152,8 +152,7 @@ public class Ejercicios {
      * Ejemplo: Si pasas (17, 5), debe retornar 2
      */
     public int calcularResto(int dividendo, int divisor) {
-        // TODO: Implementar
-        return 0;
+        return dividendo%divisor;
     }
     
     /**
