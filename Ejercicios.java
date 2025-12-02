@@ -186,8 +186,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (20, 4), debe retornar true
      */
     public boolean esMultiploDeN(int num, int n) {
-        // TODO: Implementar
-        return false;
+
+        return num % n == 0;
     }
     
     /**
