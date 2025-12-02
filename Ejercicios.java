@@ -113,8 +113,7 @@ public class Ejercicios {
      * Ejemplo: Si pasas ("Ana", 22), debe retornar "Ana tiene 22 años"
      */
     public String concatenarDatos(String nombre, int edad) {
-        // TODO: Implementar
-        return "";
+        return nombre  + " tiene " + edad + " años";
     }
     
     /**
