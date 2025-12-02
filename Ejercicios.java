@@ -195,8 +195,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas 5, debe retornar 6
      */
     public int incrementarEnUno(int num) {
-        // TODO: Implementar
-        return 0;
+        num++;
+        return num;
     }
     
     /**
