@@ -143,8 +143,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (7, 3), debe retornar 10
      */
     public int sumarDosNumeros(int a, int b) {
-        // TODO: Implementar
-        return 0;
+
+        return a+b;
     }
     
     /**
