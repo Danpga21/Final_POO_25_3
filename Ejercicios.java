@@ -93,8 +93,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas "Juan", debe retornar "Juan"
      */
     public String asignarNombre(String nombre) {
-        // TODO: Implementar
-        return "";
+        String nombre1 = nombre;
+        return nombre1;
     }
     
     /**
