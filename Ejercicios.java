@@ -250,10 +250,12 @@ public class Ejercicios {
      * Ejemplo: Si pasas (4.0, 22, true), debe retornar "apto"
      */
     public String evaluarAptitud(double nota, int edad, boolean tieneExperiencia) {
-        // TODO: Implementar
-        return "";
+        if (nota >= 3.0 && edad >= 18 && tieneExperiencia) {
+            return "apto";
+        } else {
+            return "no apto";
+        }
     }
-    
     /**
      * Aplica 15% descuento si es estudiante menor de 25 años.
      * Ejemplo: Si pasas (100.0, 20, true), debe retornar 85.0
