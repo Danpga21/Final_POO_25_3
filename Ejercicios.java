@@ -84,8 +84,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas 25, debe retornar 25
      */
     public int asignarEdad(int edad) {
-        // TODO: Implementar
-        return 0;
+      int edad1 = edad;
+        return edad1;
     }
     
     /**
