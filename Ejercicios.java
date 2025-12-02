@@ -217,8 +217,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas 20, debe retornar true. Si pasas 16, debe retornar false
      */
     public boolean esMayorDeEdad(int edad) {
-        // TODO: Implementar
-        return false;
+
+        return edad>=18;
     }
     
     /**
