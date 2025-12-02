@@ -160,8 +160,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (8, 5), debe retornar true
      */
     public boolean esMayorQue(int a, int b) {
-        // TODO: Implementar
-        return false;
+
+        return a>b;
     }
     
     /**
