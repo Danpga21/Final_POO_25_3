@@ -121,8 +121,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (1000.0, 200.0), debe retornar 1200.0
      */
     public double calcularSalarioTotal(double salarioBase, double bonos) {
-        // TODO: Implementar
-        return 0.0;
+
+        return salarioBase + bonos;
     }
     
     /**
