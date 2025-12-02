@@ -169,17 +169,16 @@ public class Ejercicios {
      * Ejemplo: Si pasas 6, debe retornar true. Si pasas -4, debe retornar false
      */
     public boolean esParYPositivo(int num) {
-        // TODO: Implementar
-        return false;
+
+        return num%2==0 && num > 0;
     }
-    
     /**
      * Verifica si un número es múltiplo de 3 usando el operador módulo.
      * Ejemplo: Si pasas 9, debe retornar true. Si pasas 7, debe retornar false
      */
     public boolean esMultiploDeTres(int num) {
-        // TODO: Implementar
-        return false;
+
+        return num%3 == 0 ;
     }
     
     /**
