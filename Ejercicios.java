@@ -36,8 +36,8 @@ public class Ejercicios {
      * Ejemplo: Si ejecutas la función, debe retornar true
      */
     public boolean declararBooleano() {
-        // TODO: Implementar
-        return false;
+        boolean valor = true ;
+        return valor;
     }
     
     /**
