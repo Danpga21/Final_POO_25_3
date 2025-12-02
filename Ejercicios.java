@@ -62,8 +62,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas 9.87, debe retornar 9
      */
     public int convertirDecimalAEntero(double decimal) {
-        // TODO: Implementar
-        return 0;
+
+        return (int) decimal;
     }
     
     /**
