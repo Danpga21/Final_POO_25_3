@@ -71,8 +71,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas 5, debe retornar 5.0
      */
     public double convertirEnteroADecimal(int entero) {
-        // TODO: Implementar
-        return 0.0;
+
+        return (double) entero;
     }
     
     // =================================================================
