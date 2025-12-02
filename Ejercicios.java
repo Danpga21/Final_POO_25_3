@@ -102,8 +102,10 @@ public class Ejercicios {
      * Ejemplo: Si pasas (5, 10), debe retornar [10, 5]
      */
     public int[] intercambiarValores(int a, int b) {
-        // TODO: Implementar
-        return new int[]{0, 0};
+        int x = a;
+        a=b;
+        b=x;
+        return new int[]{a, b};
     }
     
     /**
