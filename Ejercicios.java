@@ -45,9 +45,9 @@ public class Ejercicios {
      * Ejemplo: Si pasas 123, debe retornar "123"
      */
     public String convertirEnteroATexto(int num) {
+    return String.valueOf(num);
 
 
-        return ""+num;
     }
     
     /**
