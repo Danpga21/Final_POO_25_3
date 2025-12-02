@@ -204,8 +204,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (15, 3), debe retornar true
      */
     public boolean esDivisiblePor(int num, int divisor) {
-        // TODO: Implementar
-        return false;
+
+        return num%divisor == 0;
     }
     
     // =================================================================
