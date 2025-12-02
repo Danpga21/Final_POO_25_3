@@ -18,8 +18,8 @@ public class Ejercicios {
      * Ejemplo: Si ejecutas la función, debe retornar 3.14159
      */
     public double declararDecimal() {
-        // TODO: Implementar
-        return 0.0;
+       double decimal = 3.14159;
+        return decimal ;
     }
     
     /**
