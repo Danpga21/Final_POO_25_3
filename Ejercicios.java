@@ -130,8 +130,8 @@ public class Ejercicios {
      * Ejemplo: Si pasas (10, 5), debe retornar 15
      */
     public int actualizarContador(int contadorActual, int incremento) {
-        // TODO: Implementar
-        return 0;
+
+        return contadorActual+incremento;
     }
     
     // =================================================================
