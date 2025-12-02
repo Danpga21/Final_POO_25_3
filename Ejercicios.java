@@ -239,10 +239,12 @@ public class Ejercicios {
      * Ejemplo: Si pasas 3.5, debe retornar "apto"
      */
     public String evaluarPrueba(double nota) {
-        // TODO: Implementar
-        return "";
+        if (nota >= 3.0) {
+            return "apto";
+        } else {
+            return "no apto";
+        }
     }
-    
     /**
      * Evalúa aptitud considerando: nota >= 3.0, edad >= 18 y experiencia.
      * Ejemplo: Si pasas (4.0, 22, true), debe retornar "apto"
