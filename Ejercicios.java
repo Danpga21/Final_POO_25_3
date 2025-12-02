@@ -226,10 +226,14 @@ public class Ejercicios {
      * Ejemplo: Si pasas 5, debe retornar "positivo"
      */
     public String clasificarNumero(int num) {
-        // TODO: Implementar
-        return "";
+        if (num > 0) {
+            return "positivo";
+        } else if (num < 0) {
+            return "negativo";
+        } else {
+            return "cero";
+        }
     }
-    
     /**
      * Determina si un estudiante es "apto" (nota >= 3.0) o "no apto".
      * Ejemplo: Si pasas 3.5, debe retornar "apto"
