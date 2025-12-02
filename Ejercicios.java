@@ -47,16 +47,14 @@ public class Ejercicios {
     public String convertirEnteroATexto(int num) {
     return String.valueOf(num);
 
-
     }
-    
     /**
      * Convierte un texto que contiene un número a entero usando Integer.parseInt().
      * Ejemplo: Si pasas "456", debe retornar 456
      */
     public int convertirTextoAEntero(String texto) {
-        // TODO: Implementar
-        return 0;
+
+        return Integer.parseInt(texto);
     }
     
     /**
