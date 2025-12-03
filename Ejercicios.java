@@ -369,8 +369,23 @@ public class Ejercicios {
      * Ejemplo: Si pasas 25, debe retornar true (2+5=7, que es múltiplo de 7)
      */
     public boolean numeroMagico(int num) {
-        // TODO: Implementar
-        return false;
+        num = Math.abs(num);
+
+        // se suman dígitos
+        int suma = 0;
+        int temp = num;
+        while (temp > 0) {
+            suma += temp % 10;
+            temp /= 10;
+        }
+
+        // Si es el mismo número (un solo dígito), lo verifica
+        if (suma == num) {
+            return suma % 7 == 0;
+        }
+
+        // Si no, pues  seguir sumando recursivamente
+        return numeroMagico(suma);
     }
     
     /**
