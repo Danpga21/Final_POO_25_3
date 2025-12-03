@@ -261,10 +261,12 @@ public class Ejercicios {
      * Ejemplo: Si pasas (100.0, 20, true), debe retornar 85.0
      */
     public double calcularDescuentoEstudiante(double precio, int edad, boolean esEstudiante) {
-        // TODO: Implementar
-        return 0.0;
+        if (esEstudiante && edad < 25) {
+            return precio*0.85;
+        } else {
+            return precio;
+        }
     }
-    
     /**
      * Categoriza por edad: 0-12 "niño", 13-17 "adolescente", 18-64 "adulto", 65+ "adulto mayor".
      * Ejemplo: Si pasas 30, debe retornar "adulto"
