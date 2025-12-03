@@ -354,10 +354,16 @@ public class Ejercicios {
      * Ejemplo: Si pasas 2024, debe retornar true
      */
     public boolean esBisiesto(int año) {
-        // TODO: Implementar
-        return false;
+        if (año % 400 == 0) {
+            return true;
+        } else if (año % 100 == 0) {
+            return false;
+        } else if (año % 4 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
-    
     /**
      * Verifica si la suma de los dígitos de un número es múltiplo de 7.
      * Ejemplo: Si pasas 25, debe retornar true (2+5=7, que es múltiplo de 7)
