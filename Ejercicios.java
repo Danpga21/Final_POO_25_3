@@ -272,10 +272,16 @@ public class Ejercicios {
      * Ejemplo: Si pasas 30, debe retornar "adulto"
      */
     public String determinarCategoria(int edad) {
-        // TODO: Implementar
-        return "";
+        if (edad >=0 && edad<= 12) {
+            return "niño";
+        } else if (edad >= 13 && edad <= 17) {
+            return "adolescente";
+        } else if (edad >= 18 && edad <= 64) {
+            return "adulto";
+        } else {
+            return "adulto mayor";
+        }
     }
-    
     // =================================================================
     // 5. CICLOS
     // =================================================================
