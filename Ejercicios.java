@@ -291,8 +291,11 @@ public class Ejercicios {
      * Ejemplo: Si pasas 5, debe retornar 15 (1+2+3+4+5)
      */
     public int sumarHastaN(int n) {
-        // TODO: Implementar
-        return 0;
+     int suma = 0 ;
+     for(int i =1; i<=n ; i++ ){
+         suma += i;
+     }
+        return suma ;
     }
     
     /**
