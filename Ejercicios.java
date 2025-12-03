@@ -338,8 +338,15 @@ public class Ejercicios {
      * Ejemplo: Si pasas 6, debe retornar true (1+2+3=6)
      */
     public boolean esNumeroPerfecto(int num) {
-        // TODO: Implementar
-        return false;
+        if (num <= 1) return false;
+
+        int suma = 0;
+        for (int i = 1; i < num; i++) {
+            if (num % i == 0) {
+                suma += i;
+            }
+        }
+        return suma == num ;
     }
     
     /**
