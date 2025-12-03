@@ -318,8 +318,19 @@ public class Ejercicios {
      * Ejemplo: Si pasas 6, debe retornar 8
      */
     public int fibonacci(int n) {
-        // TODO: Implementar
-        return 0;
+        if (n == 0) return 0;
+        if (n == 1) return 1;
+
+        int a = 0;
+        int b = 1;
+        int resultado = 0;
+
+        for (int i = 2; i <= n; i++) {
+            resultado = a + b;
+            a = b;
+            b = resultado;
+        }
+        return resultado ;
     }
     
     /**
